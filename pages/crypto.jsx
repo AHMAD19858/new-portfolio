@@ -1,19 +1,20 @@
 import Image from 'next/image';
 import React from 'react';
 import cryptoImg from '../public/assets/projects/crypto.jpg';
+import dddd from '../public/assets/projects/Capture.png'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
 const crypto = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full overflow-hidden'>
       <div className='w-screen h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
         <Image
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={cryptoImg}
+          src={dddd}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
@@ -38,7 +39,7 @@ const crypto = () => {
             package. This application was built using the Coin Gecko API.
           </p>
           <a
-            href='https://github.com/fireclint/crypto-react-firebase'
+            href='https://github.com/AHMAD19858/crypto-react-firebase'
             target='_blank'
             rel='noreferrer'
           >

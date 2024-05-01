@@ -64,7 +64,7 @@ const Navbar = () => {
               height='50'
               className='cursor-pointer'
             /> */}
-            AHMED
+            {/* AHMED */}
           </a>
         </Link>
         <div>
@@ -84,9 +84,9 @@ const Navbar = () => {
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/resume'>Resume</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+          {/*   <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#contact'>Contact</Link>
-            </li>
+            </li> */}
           </ul>
           {/* Hamburger Icon */}
           <div
@@ -178,7 +178,7 @@ const Navbar = () => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                  href='https://www.linkedin.com/in/ahmed-essam-3144731b7/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -187,7 +187,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='https://github.com/AHMAD19858'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -195,14 +195,14 @@ const Navbar = () => {
                     <FaGithub />
                   </div>
                 </a>
-                <Link href='/#contact'>
+          {/*       <Link href='/#contact'>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                   >
                     <AiOutlineMail />
                   </div>
-                </Link>
+                </Link> */}
                 <Link href='/resume'>
                   <div
                     onClick={() => setNav(!nav)}

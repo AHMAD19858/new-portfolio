@@ -6,7 +6,7 @@ const resume = () => {
   return (
     <>
       <Head>
-        <title>Clint | Resume</title>
+        <title>Ahmed | Resume</title>
         <meta
           name='description'
           content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
@@ -17,17 +17,17 @@ const resume = () => {
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>Resume</h2>
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Clint Briley</h2>
+          <h2 className='text-center'>Ahmed Essam</h2>
           <div className='flex'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/ahmed-essam-3144731b7/'
               target='_blank'
               rel='noreferrer'
             >
               <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://github.com/AHMAD19858'
               target='_blank'
               rel='noreferrer'
             >
@@ -69,20 +69,21 @@ const resume = () => {
             <span className='px-2'>|</span> HTML
             <span className='px-2'>|</span>CSS
             <span className='px-2'>|</span>Javascript
+            <span className='px-2'>|</span>React Native
             <span className='px-2'>|</span>React
             <span className='px-2'>|</span>Next JS
-            <span className='px-2'>|</span>SQL
-            <span className='px-2'>|</span>NoSQL
+            <span className='px-2'>|</span>Nuxt JS
+            <span className='px-2'>|</span>Angular
             <span className='px-2'>|</span>Redux
             <span className='px-2'>|</span>Tailwind
             <span className='px-2'>|</span> Firebase
             <span className='px-2'>|</span> RESTAPI
           </p>
-          <p className='py-2'>
+     {/*      <p className='py-2'>
             <span className='font-bold'>Amazon Web Services</span>
             <span className='px-2'>|</span>Amazon Web Services Cloud
             Practitioner
-          </p>
+          </p> */}
         </div>
 
         <h5 className='text-center underline text-[18px] py-4'>
@@ -92,11 +93,75 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-            INFINITE TECH
+            DevSolutions Group LLC
             </span>
-            <span className='px-2'>|</span>Dallas, TX
+            <span className='px-2'>|</span>Alexandria, EGY
           </p>
-          <p className='py-1 italic'>Front End Web Developer & Web Master (2013 - Current)</p>
+          <p className='py-1 italic'>Front-end developer (2023 - current)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+              In 2021 I started “Code Commerce”, a YouTube channel focused on
+              sharing what I’m learning in web development, specifically
+              front-end development.
+            </li>
+            <li>
+              Private 1 on 1 Zoom coaching calls related to web development.
+              More specifically debugging, teaching basic web development
+              concepts and code reviews.
+            </li>
+          </ul>
+        </div>
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+            HUBB Ventures
+            </span>
+            <span className='px-2'>|</span>Alexandria, EGY
+          </p>
+          <p className='py-1 italic'>Front-end developer (2022 - 2023)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+              In 2021 I started “Code Commerce”, a YouTube channel focused on
+              sharing what I’m learning in web development, specifically
+              front-end development.
+            </li>
+            <li>
+              Private 1 on 1 Zoom coaching calls related to web development.
+              More specifically debugging, teaching basic web development
+              concepts and code reviews.
+            </li>
+          </ul>
+        </div>
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+            Sindion Technology Ltd
+            </span>
+            <span className='px-2'>|</span>Alexandria, EGY
+          </p>
+          <p className='py-1 italic'>Front-end developer (2021 - 2022)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+              In 2021 I started “Code Commerce”, a YouTube channel focused on
+              sharing what I’m learning in web development, specifically
+              front-end development.
+            </li>
+            <li>
+              Private 1 on 1 Zoom coaching calls related to web development.
+              More specifically debugging, teaching basic web development
+              concepts and code reviews.
+            </li>
+          </ul>
+        </div>
+
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+            ZAD-Foundation
+            </span>
+            <span className='px-2'>|</span>Remotly
+          </p>
+          <p className='py-1 italic'>Full-stack developer & Mobile developer (2020 - 2022)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
               Ensured comprehensive mobile responsive UI layouts with
@@ -117,37 +182,15 @@ const resume = () => {
           </ul>
         </div>
 
-
-        {/* Personal Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold italic'>
-              Teaching & Mentoring Web Development
-            </span>
-            <span className='px-2'>|</span>Dallas, TX
-          </p>
-          <p className='py-1 italic'>Code Commerce - Youtube Channel (2021 - Current)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-              In 2021 I started “Code Commerce”, a YouTube channel focused on
-              sharing what I’m learning in web development, specifically
-              front-end development.
-            </li>
-            <li>
-              Private 1 on 1 Zoom coaching calls related to web development.
-              More specifically debugging, teaching basic web development
-              concepts and code reviews.
-            </li>
-          </ul>
-        </div>
+      
 
         {/*  */}
-        <h5 className='text-center underline text-[18px] py-4'>
+   {/*      <h5 className='text-center underline text-[18px] py-4'>
           Other Professional Experience
-        </h5>
+        </h5> */}
       
         {/* Experience */}
-        <div className='py-6'>
+       {/*  <div className='py-6'>
           <p className='italic'>
             <span className='font-bold'>CITY OF SHERMAN, TX</span>
             <span className='px-2'>|</span>Sherman, TX
@@ -181,7 +224,7 @@ const resume = () => {
               Support, among others.
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </>
   );

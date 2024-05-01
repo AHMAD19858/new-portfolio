@@ -22,7 +22,7 @@ const Main = () => {
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/ahmed-essam-3144731b7/'
               target='_blank'
               rel='noreferrer'
             >
@@ -31,7 +31,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://github.com/AHMAD19858'
               target='_blank'
               rel='noreferrer'
             >
@@ -39,11 +39,11 @@ const Main = () => {
                 <FaGithub />
               </div>
             </a>
-            <Link href='/#contact'>
+       {/*      <Link href='/#contact'>
               <div className='rounded-full shadow-lg  bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiOutlineMail />
               </div>
-            </Link>
+            </Link> */}
             <Link href='/resume'>
               <div className='rounded-full shadow-lg bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill />
