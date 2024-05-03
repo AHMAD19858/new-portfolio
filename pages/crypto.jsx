@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import cryptoImg from '../public/assets/projects/crypto.jpg';
-import dddd from '../public/assets/projects/Capture.png'
+import dddd from '../public/assets/projects/capture.PNG'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
