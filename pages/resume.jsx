@@ -97,7 +97,7 @@ const resume = () => {
             </span>
             <span className='px-2'>|</span>Alexandria, EGY
           </p>
-          <p className='py-1 italic'>Front-end developer (2023 - current)</p>
+          <p className='py-1 italic'>Front-end developer (2023 - 2024)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
               In 2021 I started “Code Commerce”, a YouTube channel focused on

@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const netflix = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full overflow-hidden'>
       <div className='w-screen h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
         <Image
@@ -35,13 +35,13 @@ const netflix = () => {
             useContext hook is also being implemented for app-wide state
             management.
           </p>
-          <a
+        {/*   <a
             href='https://github.com/AHMAD19858/netflix-react-tailwind'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
-          </a>
+          </a> */}
           <a
             href='https://fireclint.github.io/netflix-react-tailwind/'
             target='_blank'

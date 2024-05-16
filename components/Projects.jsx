@@ -1,12 +1,12 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
-/* import dddd from '../public/assets/projects/capture.PNG' */
 
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
+import React from 'react';
+import motton from '../public/assets/projects/motton.png'
+import qwizeen from '../public/assets/projects/qwizeen.png'
+import huda from '../public/assets/projects/huda.jpg'
+import food from '../public/assets/projects/ffood.jpg'
+import eatte from '../public/assets/projects/eatte.jpg'
+import netflix from '../public/assets/projects/netflix.jpg'
+
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -19,30 +19,45 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Property Finder'
-            backgroundImg={propertyImg}
-            projectUrl='/property'
-            tech='React JS'
+            title='Motton Academy'
+            backgroundImg={motton}
+            projectUrl='/motton'
+            tech='Angular'
           />
           <ProjectItem
-            title='Crypto App'
-            backgroundImg={cryptoImg}
-            projectUrl='/crypto'
-            tech='React JS'
+            title='Qwizeen'
+            backgroundImg={qwizeen}
+            projectUrl='/qwizeen'
+            tech='Nuxt3'
 
           />
+
           <ProjectItem
-            title='Netflix App'
-            backgroundImg={netflixImg}
+            title='Food App'
+            backgroundImg={netflix}
             projectUrl='/netflix'
-            tech='React JS'
+            tech='React js'
 
           />
           <ProjectItem
-            title='Twitch UI'
-            backgroundImg={twitchImg}
+            title='EATTE'
+            backgroundImg={eatte}
+            projectUrl='/eatte'
+            tech='Nuxt3'
+
+          />
+          <ProjectItem
+            title='Huda App'
+            backgroundImg={huda}
+            projectUrl='/huda'
+            tech='React native'
+
+          />
+          <ProjectItem
+            title='Food App'
+            backgroundImg={food}
             projectUrl='/twitch'
-            tech='Next JS'
+            tech='React native'
 
           />
         </div>
